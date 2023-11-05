@@ -1,11 +1,11 @@
 # figma-linux-instructions
 A guide on how I installed Figma Linux with Wayland, Vulkan, and hardware acceleration on Fedora
 
-After countless hours trying to get Figma Linux running optimally on my machines, I figured out how to get Wayland, Vulkan, and hardware acceleration working on Fedora 39 Workstation. 
+After countless hours trying to get Figma Linux running optimally on my machines, I figured out how to get Wayland, Vulkan, and hardware acceleration working on Fedora 39 Workstation without using the web version of Figma. 
 
 ![figma-linux](https://github.com/Figma-Linux/figma-linux/assets/10662332/36b6f2b7-03b5-46b8-8e80-749264537f75)
 
-I'm noticing a significant boost in performance, crisper text, and better power savings. The advantage of this isThe only shortcoming is that the window which Figma will run on will lose its shadow. [This is due to a technical limitation with frameless windows on Linux.](https://github.com/electron/electron/issues/2380)
+I'm noticing a significant boost in performance, crisper text, and better power savings. The only shortcoming is that the window which Figma will run on will lose its shadow. [This is due to a technical limitation with frameless windows on Linux.](https://github.com/electron/electron/issues/2380)
 
 I am writing this workaround because I know many of us have been struggling to get Figma working well on Linux. This guide assumes you are on Fedora 39 Workstation (this will work on Fedora 38 Workstation). Here's how I did it. 
 
